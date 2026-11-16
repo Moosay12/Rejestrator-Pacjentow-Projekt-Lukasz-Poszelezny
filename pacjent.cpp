@@ -1,4 +1,4 @@
-#include "Pacjent.h" 
+#include "pacjent.h" 
 
 Pacjent::Pacjent() {
     imie = "Brak";
