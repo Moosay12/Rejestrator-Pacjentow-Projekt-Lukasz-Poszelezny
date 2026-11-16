@@ -4,12 +4,12 @@ PacjentP::PacjentP(string i, string n, int w, string p, string ch, int pr, int s
     numer_sali = sala;
     pobyt = dni;}
 void PacjentP::wyswietl_dane() const {
-    cout << "[PACJENT SZPITALNY] " << imie << " " << nazwisko 
+    cout << "[PACJENT DANE] " << imie << " " << nazwisko 
          << " | Wiek: " << wiek << " | Sala nr: " << numer_sali 
          << " | Pobyt: " << pobyt << " dni" << endl;
 }
 double PacjentP::cena_leczenia() const {
     return pobyt * 150.0 + (priorytet * 200.0);}
 string PacjentP::typ_pacjenta() const {
-    return "pacjent_dane";
+    return "pacjent_szpitalny";
 }
