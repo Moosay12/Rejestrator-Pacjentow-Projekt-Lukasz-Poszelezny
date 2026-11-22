@@ -12,13 +12,13 @@ PacjentDziecko::PacjentDziecko(string i, string n, int w, string p, string ch, i
     ustaw_telefon_opiekuna(tel);
     ustaw_pobyt(dni);
 }
-string PacjentDziecko::dodaj_opiekuna() const{ return 
-    opiekun; 
+string PacjentDziecko::dodaj_opiekuna() const{ 
+    return opiekun; 
 }
-string PacjentDziecko::dodaj_telefon_opiekuna() const{return 
-    telefon_opiekuna;}
-int PacjentDziecko::dodaj_pobyt() const{ return 
-    pobyt;}
+string PacjentDziecko::dodaj_telefon_opiekuna() const{
+    return telefon_opiekuna;}
+int PacjentDziecko::dodaj_pobyt() const{ 
+    return pobyt;}
 void PacjentDziecko::ustaw_opiekuna(const string& op) {
     if (op == "") throw string("Dane opiekuna nie moga byc puste!");
     opiekun = op;}
