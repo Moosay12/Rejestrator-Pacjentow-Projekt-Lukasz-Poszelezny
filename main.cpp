@@ -7,7 +7,7 @@
 #include <ctime>
 #include "pacjent_p.h"
 #include "pacjent_dziecko.h"
-#include "Lekarz.h"
+#include "lekarz.h"
 #include "recepta.h"
 using namespace std;
 
